@@ -1,46 +1,29 @@
-# Mon Assistant Financier IA 🧠
-Mon Assistant Financier IA est une application web de gestion financière personnelle conçue pour vous aider à suivre vos finances, à atteindre vos objectifs d'épargne et à obtenir des conseils personnalisés grâce à l'intelligence artificielle générative.
+# My AI Financial Assistant 🧠
 
-L'objectif principal est de fournir une solution intuitive qui simplifie la gestion de votre budget quotidien et vous offre des insights financiers intelligents.
+**My AI Financial Assistant** is a personal financial management web application designed to help you track your finances, reach your savings goals, and get personalized advice through generative artificial intelligence.
 
-## Fonctionnalités principales
-**Tableau de bord :** Visualisez votre solde, vos revenus et vos dépenses mensuelles à l'aide de graphiques interactifs (solde, dépenses par catégorie, et dépenses mensuelles).
+The main objective is to provide an intuitive solution that simplifies daily budget management and offers smart financial insights.
 
-**Transactions :** Enregistrez et suivez facilement toutes vos transactions (dépenses et revenus).
+## Key Features
 
-**Assistant IA conversationnel :** Posez des questions à votre assistant IA alimenté par l'API Gemini et recevez des réponses et des conseils financiers en temps réel.
+**Dashboard:** Visualize your balance, income, and monthly expenses using interactive charts (balance, expenses by category, and monthly trends).
 
-**Objectifs financiers :** Créez et suivez la progression de vos objectifs d'épargne (par exemple, "Voyage", "Voiture").
+**Transactions:** Easily record and track all your transactions (expenses and income).
 
-**Gestion de profil :** Personnalisez votre profil en téléchargeant une photo de profil.
+**Conversational AI Assistant:** Ask questions to your AI assistant powered by the Gemini API and receive real-time financial answers and advice.
+
+**Financial Goals:** Create and track the progress of your savings goals (e.g., "Travel", "Car").
+
+**Profile Management:** Personalize your profile by uploading a profile picture.
 
 ## Technologies
-*Backend : Python, Flask*
 
-**Base de données :** SQLite avec SQLAlchemy
+**Backend:** Python, Flask
 
-**Frontend :** HTML, CSS (Bootstrap), JavaScript (Chart.js)
+**Database:** SQLite with SQLAlchemy
 
-**IA : Google Gemini API**
+**Frontend:** HTML, CSS (Bootstrap), JavaScript (Chart.js)
 
-**Autres : Flask-Login, Flask-Migrate**
+**AI:** Google Gemini API
 
-## Installation
-Clonez le dépôt :
-git clone https://github.com/Fred-lannister/Mon-application-Flask.git
-
-Installez les dépendances :
-pip install -r requirements.txt
-
-Configurez vos variables d'environnement (.env) pour la clé secrète de Flask et la clé API de Gemini.
-
-Lancez les migrations de la base de données :
-
-flask db migrate -m "Initialisation de la base de données"
-
-flask db upgrade
-
-Démarrez l'application :
-flask run
-
-**Contact :** njomanifred@gmail.com/fred.njomani@ensea.edu.ci 
+**Others:** Flask-Login, Flask-Migrate
